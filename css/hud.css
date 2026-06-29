@@ -1,0 +1,562 @@
+[v-cloak] {
+    display: none;
+  }
+  .hud-cefstudio {
+    position: absolute;
+    top: 1vh;
+    right: 0;
+  }
+  .hud-cefstudio .logotype-block {
+    position: absolute;
+    top: 1vh;
+    right: 3vh;
+  }
+  .hud-cefstudio .logotype-block .logotype {
+    width: 10.3vh;
+    position: absolute;
+    top: -1vh;
+    right: 26vh;
+  }
+  .hud-cefstudio .logotype-block .servername {
+    position: relative;
+    top: -3.9vh;
+    right: 1vh;
+    font-family: europe-bold;
+    font-size: 3.2vh;
+    font-weight: 700;
+    color: d73259;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    background-image: linear-gradient(
+      90deg,
+      #ff0c3c,
+      rgb(143, 102, 14),
+      #ff0c3c,
+      rgb(143, 102, 14),
+      #ff0c3c,
+      rgb(143, 102, 14),
+      #ff0c3c,
+      rgb(143, 102, 14));
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-size: 300px 300px;
+    background-position: 0 0;
+    text-align: left;
+  }
+  .hud-cefstudio .logotype-block .roleplay {
+    position: relative;
+    font-family: Montserrat-SemiBold;
+    font-size: 1.8vh;
+    letter-spacing: 0.032766990291262135vh;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    font-weight: 700;
+    color: white;
+    text-align: right;
+    bottom: 3.7vh;
+    right: 1.7vh;
+    top: -6.2vh;
+  }
+  .hud-cefstudio .progress-bar-block {
+    position: absolute;
+    top: 10.2vh;
+    right: 7vh;
+  }
+  .hud-cefstudio .progress-bar-block .progress-bars {
+    width: 23vh;
+    height: 0.970873786407767vh;
+    background: rgba(0, 0, 0, 0.425);
+    margin-bottom: 1.3vh;
+    border-radius: 1.2135922330097086vh;
+    display: flex;
+  }
+  .hud-cefstudio .progress-bar-block .progress-bars .progress-health {
+    height: 100%;
+    top: -10.2vh;
+    background: #f2143d;
+    border-radius: 1.2135922330097086vh;
+  }
+  .hud-cefstudio .progress-bar-block .progress-bars .progress-armour {
+    height: 100%;
+    background: #d5d5d5;
+    border-radius: 1.2135922330097086vh;
+  }
+  .hud-cefstudio .progress-bar-block .progress-bars .progress-food {
+    height: 100%;
+    background: #e77d00;
+    border-radius: 1.2135922330097086vh;
+  }
+  .hud-cefstudio .progress-bar-block .progress-bars .progress-run {
+    height: 100%;
+    background: #00ab61;
+    border-radius: 1.2135922330097086vh;
+  }
+  .hud-cefstudio .progress-bar-block .progress-value {
+    position: absolute;
+    left: 23.7vh;
+    bottom: 1.2vh;
+  }
+  .hud-cefstudio .progress-bar-block .progress-value .value {
+    width: 100%;
+    position: relative;
+    text-align: left;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    font-family: "europe-bolditalic";
+    font-size: 1.4514563106796117vh;
+    margin-top: 0.5vh;
+    color: #fff;
+  }
+  .hud-cefstudio .weapon-block {
+    position: absolute;
+    right: 31vh;
+    top: 9.5vh;
+  }
+  .hud-cefstudio .weapon-block .weapon {
+    position: relative;
+    width: 8.5vh;
+    top: 0.75vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .hud-cefstudio .weapon-block .infinity {
+    position: relative;
+    width: 2vh;
+    top: 0.4vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .hud-cefstudio .weapon-block .ammo {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    font-family: "europe-bolditalic";
+    font-size: 1.4vh;
+    color: #fff;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    top: 0.5vh;
+    left: 0.1vh;
+  }
+  .hud-cefstudio .money-block {
+    position: absolute;
+    right: 3.7vh;
+    top: 21.2vh;
+    width: 19.7vw;
+  }
+  .hud-cefstudio .money-block .money {
+    position: relative;
+    font-family: "europe-bolditalic";
+    color: #66bc5f;
+    font-size: 4.7vh;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.8);
+    letter-spacing: 2.5px;
+    text-align: right;
+    left: -1.8vh;
+  }
+  .hud-cefstudio .money-block .money img {
+    position: relative;
+    width: 5vh;
+    bottom: 5.0vh;
+    right: -5vh;
+  }
+  .hud-cefstudio .line {
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.411);
+    width: 35.8vh;
+    height: 0.24271844660194175vh;
+    box-shadow: 0 0 1.2135922330097086vh rgba(0, 0, 0, 0.4);
+    margin-left: 0.5vh;
+  }
+  .hud-server-datetime {
+    position: fixed;
+    bottom: 23.5%;
+    left: 5%;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    display: flex;
+    color: #fff;
+    width: 11.5vw;
+    justify-content: space-between;
+  }
+  .hud-server-time {
+    display: flex;
+    align-items: center;
+    margin-left: 2.5vh;
+  }
+  #server-time,
+  #server-date {
+    margin-left: 0.3vw;
+    font-size: 1.7vh;
+    font-family: "montserrat-bold";
+  }
+  .speedometer-cefstudio {
+    width: 49vh;
+    position: absolute;
+    bottom: 0;
+    right: 0vh;
+    display: flex;
+  }
+  .speedometer-cefstudio .speedometer-bg {
+    width: 26vh;
+    margin-left: 12vh;
+  }
+  .speedometer-cefstudio .speed-meter {
+    position: absolute;
+    bottom: 0.12vh;
+    right: 7vh;
+  }
+  .speedometer-cefstudio .speed-block {
+    width: 15vh;
+    position: absolute;
+    right: 17vh;
+    bottom: 6vh;
+  }
+  .speedometer-cefstudio .speed-block .speed {
+    color: white;
+    text-align: center;
+    font-family: europe-bolditalic;
+    font-size: 4vh;
+    color: white;
+  }
+  .speedometer-cefstudio .speed-block .gear-block {
+    position: relative;
+    display: flex;
+    top: 0vh;
+    left: 3.5vh;
+  }
+  .speedometer-cefstudio .speed-block .gear-block .gear {
+    position: relative;
+    font-family: europe-italic;
+    font-size: 1.5vh;
+    opacity: 0.2;
+    color: white;
+    transition: all 0.3s;
+    text-align: center;
+    margin-left: 1vh;
+  }
+  .speedometer-cefstudio .speed-block .gear-block .active {
+    font-family: europe-bolditalic;
+    font-size: 2.2vh;
+    opacity: 1;
+    bottom: 0.8vh;
+  }
+  .speedometer-cefstudio .indicator-block {
+    position: absolute;
+    display: flex;
+    bottom: 0.3vh;
+    right: 16.9vh;
+  }
+  .speedometer-cefstudio .indicator-block .indicator-icon {
+    display: inline-grid;
+    position: relative;
+    margin-left: 0.2vh;
+  }
+  .speedometer-cefstudio .progress-fuel {
+    width: 5.5vh;
+    position: absolute;
+    bottom: 1vh;
+    right: 33vh;
+  }
+  .speedometer-cefstudio .fuel-block {
+    position: absolute;
+    right: 37.5vh;
+    bottom: 1vh;
+    display: flex;
+  }
+  .speedometer-cefstudio .fuel {
+    display: inline-block;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    padding: 0.5067961165048543vh 0.9067961165048543vh 0.2067961165048543vh
+      0.8067961165048543vh;
+    border-radius: 0.6vh;
+    font-family: europe-bolditalic;
+    font-size: 1.2vh;
+    color: white;
+  }
+  .speedometer-cefstudio .icon-fuel {
+    position: relative;
+    width: 1.6vh;
+    top: 0vh;
+    left: 1vh;
+  }
+  .speedometer-cefstudio .progress-health {
+    width: 5.5vh;
+    position: absolute;
+    bottom: 1vh;
+    right: 9.5vh;
+  }
+  .speedometer-cefstudio .health-block {
+    position: absolute;
+    left: 36.5vh;
+    bottom: 1vh;
+    display: flex;
+  }
+  .speedometer-cefstudio .health {
+    display: inline-block;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    padding: 0.5067961165048543vh 0.9067961165048543vh 0.2067961165048543vh
+      0.8067961165048543vh;
+    border-radius: 0.6vh;
+    font-family: europe-bolditalic;
+    font-size: 1.2vh;
+    color: white;
+  }
+  .speedometer-cefstudio .icon-health {
+    position: relative;
+    width: 4vh;
+    height: 2.5vh;
+    top: 0vh;
+    right: 0vh;
+  }
+  .suspect-block {
+    position: relative;
+    width: 36.25vh;
+    display: flex;
+    margin-top: 21.5vh;
+    border-radius: 0.6557377049180327vh;
+    background: rgb(0, 4, 255);
+    box-shadow: 0 -200px 100px -120px rgba(190, 0, 0, 0.651) inset;
+    padding: 1.25vh 1vh;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+  }
+  .suspect-block .text {
+    font-family: Montserrat-Medium;
+    font-size: 1.5vh;
+    color: white;
+    margin-left: 0.5vh;
+    margin-top: 0.25vh;
+  }
+  .suspect-block .star {
+    transform: scaleX(-1);
+  }
+  .suspect-block .star img {
+    width: 3vh;
+    height: 3vh;
+    margin-left: 0.6371584699453552vh;
+  }
+  .ping-block {
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    width: 55.35519125683061vh;
+    height: 6.340983606557377vh;
+    background: #000000;
+    border-radius: 1.546448087431694vh;
+    opacity: 0.23;
+    bottom: 1.5vh;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  .css-ping {
+    position: absolute;
+    width: 60vh;
+    bottom: -91.9vh;
+    right: -22.7vh;
+    font-family: Montserrat-Bold;
+    font-size: 1.5vh;
+    text-shadow: 0 0 1vh #ee133b;
+    color: #ee133b;
+  }
+  .capture-container {
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    width: 55.35519125683061vh;
+    height: 6.340983606557377vh;
+    background: #ebebeb;
+    border-radius: 0.546448087431694vh;
+    bottom: 1.5vh;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  .capture-container .gang {
+    display: flex;
+  }
+  .capture-container .gang .counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    font-family: Montserrat-Bold;
+    font-size: 3.1344262295081966vh;
+    text-shadow: 0 0 1vh #ee133b;
+    color: #ee133b;
+  }
+  .capture-container .gang .counter p {
+    width: 15vh;
+    display: flex;
+    font-family: Montserrat-Regular;
+    font-size: 1.3344262295081966vh;
+    text-shadow: none;
+    color: #545454;
+    margin-bottom: -0.7vh;
+    padding: 1.5vh;
+  }
+  .capture-container .center-block {
+    width: 15vh;
+    display: inline-block;
+    text-align: center;
+  }
+  .capture-container .center-block .timer {
+    font-family: Montserrat-ExtraBold;
+    font-size: 1.94262295081966vh;
+    color: #5f5f5f;
+  }
+  .capture-container .center-block .round {
+    font-family: Montserrat-Regular;
+    font-size: 1.27262295081966vh;
+    color: #5f5f5f;
+    margin-top: -0.2vh;
+  }
+  .kill-list {
+    display: inline-block;
+    position: absolute;
+    right: -1vh;
+    top: 34vh;
+  }
+  .kill-list .kill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .kill-list .kill img {
+    width: 4.5vh;
+    margin: 0 1vh;
+  }
+  .kill-list .kill .killer {
+    width: 20vh;
+    font-family: Montserrat-Bold;
+    font-size: 1.544262295081966vh;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    text-align: right;
+  }
+  .kill-list .kill .killed {
+    width: 20vh;
+    font-family: Montserrat-Bold;
+    font-size: 1.544262295081966vh;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    text-align: left;
+  }
+  .select-clothes {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 29.01639344262295vh;
+    position: absolute;
+    background: linear-gradient(
+      180deg,
+      rgba(228, 24, 61, 0) 0,
+      rgba(228, 24, 61, 0.35) 100%
+    );
+    bottom: 0;
+    display: none;
+  }
+  .select-clothes .content {
+    display: inline-block;
+  }
+  .select-clothes .content .button-block {
+    width: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .select-clothes .content .button-block .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #e4183d;
+    padding: 1vh 2.5vh 1vh 2.5vh;
+    border-radius: 1.021857923497268vh;
+    font-family: Montserrat-SemiBold;
+    font-size: 1.68792349726776vh;
+    transition: 0.3s;
+    cursor: pointer;
+    margin: 0 3vh;
+    color: #fff;
+  }
+  .button:hover {
+    box-shadow: 0 0 1.5vh #e4183d;
+  }
+  .select-clothes .content .button-block .button img {
+    width: 3.243715846994536vh;
+    height: 3.243715846994536vh;
+  }
+  .select-clothes .content .random {
+    width: 12vh;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1vh 2vh 1vh 2vh;
+    border-radius: 1.021857923497268vh;
+    font-family: Montserrat-Medium;
+    font-size: 1.49792349726776vh;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    color: #fff;
+    top: 1vh;
+  }
+  .select-clothes .content .random img {
+    width: 2.1vh;
+    height: 2.1vh;
+    margin-left: 1vh;
+  }  
+#playerinfo-id {
+    position: absolute;
+    left: -77.5vw;
+    bottom: -51.5vw;
+    font-family: Montserrat-SemiBold;
+    font-size: 0.75vw;
+    color: #fff;
+    text-shadow:1px 1px 5px rgba(0,0,0,0.5);
+}
+.radar-point-img {
+    position:absolute;
+    width:3vh;
+    left: -71.5vw;
+    bottom: -49.3vw;
+    right:-3vh;
+    text-shadow:1px 1px 5px rgba(0,0,0,0.5);
+}
+.radarpointtextc {
+    position: absolute;
+    left: -69.5vw;
+    bottom: -49.8vw;
+    font-family: Montserrat-SemiBold;
+    font-size: 0.75vw;
+    color: #fff;
+    text-shadow:1px 1px 5px rgba(0,0,0,0.5);
+}
+.artifacts0 {
+  position:absolute;
+  width:2.8vh;
+  left: -61.9vw;
+  bottom: -36.1vw;
+  right:-3vh;
+}
+.artifacts1 {
+  position:absolute;
+  width:2.8vh;
+  left: -60.2vw;
+  bottom: -36.1vw;
+  right:-3vh;
+}
+.artifacts2 {
+  position:absolute;
+  width:2.8vh;
+  left: -63.7vw;
+  bottom: -36.1vw;
+  right:-3vh;
+}
